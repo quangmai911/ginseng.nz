@@ -1,6 +1,6 @@
 // ----- CONTACT ----- //
  
-$('#contact-form').submit(function() {
+$('#my-form').submit(function() {
     var action = $(this).attr('action');
     $("#message").slideUp(750, function() {
         $('#message').hide();
